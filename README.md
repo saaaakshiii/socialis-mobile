@@ -1,56 +1,130 @@
-# Welcome to your Expo app 👋
+# 🌍 Socialis Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> **A mobile platform for reporting, tracking, and managing community problems.**
 
-## Get started
+Socialis Mobile is an Expo + React Native application developed as part of the **Socialis** project. The platform allows citizens to report community issues, view reported problems, track their status, and access AI-powered features for problem analysis and assistance.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Features
 
-2. Start the app
+### 🏠 Home Dashboard
+- User-friendly mobile interface
+- Quick access to important platform features
+- Community-focused problem reporting
 
-   ```bash
-   npx expo start
-   ```
+### 📝 Report Problems
+Users can report issues related to their community by providing:
 
-In the output, you'll find options to open the app in a
+- Problem title
+- Detailed description
+- Location
+- Category information
+- Additional problem details
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📋 Community Problems
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Users can:
 
-## Get a fresh project
+- View all reported community problems
+- See problem token numbers
+- View problem descriptions
+- Check locations
+- Track problem status
+- View problem categories
+- Refresh the problem list
 
-When you're ready, run:
+### 🤖 AI Analysis
 
-```bash
-npm run reset-project
-```
+The application includes an AI-powered problem analysis feature that can help with:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Problem categorization
+- Priority analysis
+- Smart problem classification
+- AI-assisted decision making
 
-### Other setup steps
+### 🎤 AI Voice Assistant
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Socialis includes an AI Voice Assistant interface designed to improve accessibility and provide users with a more natural way to interact with the platform.
 
-## Learn more
+### 👤 User Profile
 
-To learn more about developing your project with Expo, look at the following resources:
+Users can access and manage their profile through the mobile application.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🛠️ Tech Stack
 
-Join our community of developers creating universal apps.
+### Frontend
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+
+### UI & Icons
+
+- React Native StyleSheet
+- Expo Vector Icons
+- React Native Safe Area Context
+
+### Backend Integration
+
+- FastAPI
+- REST APIs
+- PostgreSQL
+- SQLAlchemy
+
+---
+
+## 📂 Project Structure
+
+```text
+socialis-mobile/
+│
+├── assets/
+│   └── images/
+│
+├── constants/
+│   └── theme.ts
+│
+├── services/
+│   ├── api.ts
+│   └── problems.ts
+│
+├── src/
+│   ├── app/
+│   │   ├── (tabs)/
+│   │   │   ├── _layout.tsx
+│   │   │   ├── index.tsx
+│   │   │   ├── problems.tsx
+│   │   │   ├── profile.tsx
+│   │   │   └── report.tsx
+│   │   │
+│   │   ├── problem/
+│   │   │   └── [id].tsx
+│   │   │
+│   │   ├── _layout.tsx
+│   │   ├── index.tsx
+│   │   ├── login.tsx
+│   │   ├── signup.tsx
+│   │   ├── onboarding.tsx
+│   │   ├── report-problem.tsx
+│   │   ├── ai-analysis.tsx
+│   │   └── voice-assistant.tsx
+│   │
+│   └── components/
+│       ├── AIAnalysisCard.tsx
+│       ├── ProblemCard.tsx
+│       ├── StatusBadge.tsx
+│       └── Timeline.tsx
+│
+├── app.json
+├── eas.json
+├── package.json
+└── README.md
+
+<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 55 (1)" src="https://github.com/user-attachments/assets/b7e04455-05bb-4186-b8b7-6aaf132ad476" />
+<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 56 (1)" src="https://github.com/user-attachments/assets/14ec5ae9-fd09-42b1-a011-fea860b068e4" />
+<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 57 (1)" src="https://github.com/user-attachments/assets/895d7a43-db58-42e5-a61f-41f932d51514" />
+<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 58 (1)" src="https://github.com/user-attachments/assets/26d888fd-3376-4ee7-852a-1ddc16986ada" />
