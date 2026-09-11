@@ -1,8 +1,8 @@
 # 🌍 e-KALP Mobile
-<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 55 (1)" src="https://github.com/user-attachments/assets/b7e04455-05bb-4186-b8b7-6aaf132ad476" />
-<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 56 (1)" src="https://github.com/user-attachments/assets/14ec5ae9-fd09-42b1-a011-fea860b068e4" />
-<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 57 (1)" src="https://github.com/user-attachments/assets/895d7a43-db58-42e5-a61f-41f932d51514" />
-<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 58 (1)" src="https://github.com/user-attachments/assets/26d888fd-3376-4ee7-852a-1ddc16986ada" />
+<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 55 (1)" src="https://github.com/user-attachments/assets/b7e04455-05bb-4186-b8b7-6aaf132ad476" /> <img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 56 (1)" src="https://github.com/user-attachments/assets/14ec5ae9-fd09-42b1-a011-fea860b068e4" />
+
+<img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 58 (1)" src="https://github.com/user-attachments/assets/26d888fd-3376-4ee7-852a-1ddc16986ada" /> <img width="720" height="1465" alt="WhatsApp Image 2026-09-11 at 23 48 57 (1)" src="https://github.com/user-attachments/assets/895d7a43-db58-42e5-a61f-41f932d51514" />
+
 
 > **A mobile platform for reporting, tracking, and managing community problems.**
 
