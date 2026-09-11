@@ -6,7 +6,7 @@
 
 > **A mobile platform for reporting, tracking, and managing community problems.**
 
-Socialis Mobile is an Expo + React Native application developed as part of the **Socialis** project. The platform allows citizens to report community issues, view reported problems, track their status, and access AI-powered features for problem analysis and assistance.
+e-KALP Mobile is an Expo + React Native application developed as part of the **Socialis** project. The platform allows citizens to report community issues, view reported problems, track their status, and access AI-powered features for problem analysis and assistance.
 
 ---
 
