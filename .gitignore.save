@@ -23,10 +23,12 @@ expo-env.d.ts
 
 # debug
 npm-debug.*
+
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# macO
+
 .DS_Store
 *.pem
 
@@ -41,19 +43,3 @@ example
 # generated native folders
 /ios
 /android
-
-node_modules/
-.expo/
-dist/
-web-build/
-
-.env
-.env.local
-
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-*.log
-
-.DS_Store
